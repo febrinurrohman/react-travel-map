@@ -1,0 +1,88 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+}
+
+label {
+    border-bottom: 1px solid tomato;
+    color: tomato;
+    font-size: 13px;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.buttons, .logout {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    width: 250px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.login {
+    background-color: teal;
+    margin-right: 10px;
+}
+
+.logout {
+    background-color: tomato;
+}
+
+.register {
+    background-color: slateblue;
+}
+
+.star {
+    color: gold;
+}
+
+.submitButton {
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.username {
+    font-size: 14px;
+}
